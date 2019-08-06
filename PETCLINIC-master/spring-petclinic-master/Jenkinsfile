@@ -23,6 +23,7 @@ node {
                 if (isUnix()) {
                         sh "'${mavenHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
                         // Publish JUnit Report
+                        //publihing junt repors
                         junit '**/target/surefire-reports/TEST-*.xml'
                 } 
                 else {
