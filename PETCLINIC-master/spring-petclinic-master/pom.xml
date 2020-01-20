@@ -366,7 +366,9 @@
                 <version>2.2</version>
                 <configuration>
 				<url>http://localhost:8085/manager/text</url>
-                    <server>tomcat-development-server</server>
+                    <username>admin</username>
+                    <password>admin</password>
+                <server>tomcat-development-server</server>
                    
                     <path>/petclinic</path>
                 </configuration>
